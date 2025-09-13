@@ -48,7 +48,7 @@ function checkLetter(){
         if(!found){
             wrongGuess++;
             if (wrongGuess<7){
-                img.src = `C:/Users/MyPC/Downloads/hangman-game-images/hangman-${wrongGuess}.svg`;
+                img.src = `hangman-${wrongGuess}.svg`;
                 win.innerHTML = "TRY AGAIN ! 😴"
             }
         }
