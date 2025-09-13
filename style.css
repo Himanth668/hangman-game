@@ -1,0 +1,63 @@
+*{
+    color: rgb(236, 230, 230);
+    font-size: 26px;
+}
+body{
+    background-image: url("c:/Users/MyPC/Downloads/hangman-game-images/images/download1.jpeg");
+    background-repeat:no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    backface-visibility: visible;
+
+}
+.container{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.image , .items{
+    padding: 15px;
+}
+input{
+  text-align: center;
+  color: rgb(4, 4, 4);
+  border-radius: 8px;
+  width: 200px;
+  height: 40px;
+  margin: 2px;
+}
+h2,button{
+    color: blue;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(65, 64, 63);
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+@media only screen and (min-width: 600px){
+    #word {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+  }
+  input[type="text"] {
+    width: 80%;
+    font-size: 1rem;
+  }
+  button {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+  img {
+    max-width: 90%;
+  }
+  .items h1, .items h2 {
+    font-size: 1.2rem;
+  }
+  .container {
+    padding: 10px;
+  }
+}
